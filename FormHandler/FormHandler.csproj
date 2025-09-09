@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>5a16d2e3-d2ae-478d-a650-518170ab1748</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="akismetapi.net" Version="4.0.0" />
+    <PackageReference Include="mailkit" Version="4.13.0" />
+  </ItemGroup>
+
+</Project>
